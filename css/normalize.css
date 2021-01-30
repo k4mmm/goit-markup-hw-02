@@ -62,7 +62,7 @@ hr {
  */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -84,8 +84,7 @@ a {
 
 abbr[title] {
   border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  text-decoration: underline underline dotted; /* 2 */
 }
 
 /**
@@ -105,7 +104,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
+  font-family: monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -173,9 +172,9 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 
+/* 1 */
 button,
 input {
-  /* 1 */
   overflow: visible;
 }
 
@@ -184,9 +183,9 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
+/* 1 */
 button,
 select {
-  /* 1 */
   text-transform: none;
 }
 
