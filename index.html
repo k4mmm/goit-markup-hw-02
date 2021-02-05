@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -16,20 +18,20 @@
         <!--навигация-->
         <nav>
             <a class="logo-header" href="./index.html"><span class="web">Web</span>Studio</a>
-            <ul>
+            <ul class="nav-items">
                 <li>
-                    <a class="nav-item" href="./index.html">Студия</a>
+                    <a class="current" href="./index.html">Студия</a>
                 </li>
                 <li>
-                    <a class="nav-item" href="./portfolio.html">Портфолио</a>
+                    <a href="./portfolio.html">Портфолио</a>
                 </li>
                 <li>
-                    <a class="nav-item" href="#">Контакты</a>
+                    <a href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
         <!--контакты-->
-        <ul>
+        <ul class="contacts">
             <li>
                 <a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
@@ -43,12 +45,12 @@
             <!--Герой-->
             <section class="hero">
                 <h1>Эффективные решения для вашего бизнеса</h1>
-                <a class="button" href="#">Заказать услугу</a>
+                <button type="button" class="button">Заказать услугу</button>
             </section>
         </div>
         <!--особенности-->
         <section class="features">
-            <h2>Особености</h2>
+            <h2 class="visually-hidden">Особености</h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -114,7 +116,7 @@
     </main>
     <footer>
         <section>
-            <h2>Футер</h2>
+            <h2 class="visually-hidden">Футер</h2>
             <a class="logo-footer" href="#"><span class="web">Web</span>Studio</a>
             <address class="address">
                 <ul>
